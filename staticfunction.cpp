@@ -40,3 +40,9 @@ void Mahasiswa::printAll() {
     cout << endl;
 }
 
+int main() {
+    //pembuatan object dan pemberian nilai
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Datmiko");
+    
+}
