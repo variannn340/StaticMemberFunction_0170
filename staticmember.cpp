@@ -13,6 +13,8 @@ public:
     void setID();
     void printAll();
 
-    
-
-}
+    //deklarasi constructor Mahasiswa dengan parameter pnama
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    }
+};
