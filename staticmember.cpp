@@ -9,6 +9,10 @@ public:
     int id;
     string nama;
 
+    //deklarasi orosedur setID() dan printAll()
+    void setID();
+    void printAll();
+
     
 
 }
