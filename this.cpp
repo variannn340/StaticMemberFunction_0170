@@ -9,6 +9,7 @@ class buku
 public:
     string setget(string judul)
     {
-        this->judul = judul; // nilai
+        this->judul = judul; // nilai paramenter 'judul' untuk member variabel
+        return this->judul; // return variabel judul.
     }
-}
+};
