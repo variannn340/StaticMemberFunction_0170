@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
-    
-}
+class mahasiswa {
+public:
+    mahasiswa(); //Constructor
+};
+
+mahasiswa::mahasiswa() {
+    cout << "Constructor Terpanggil" << endl; //Definisi Constructor
+};
